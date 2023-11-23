@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/543bf5d1d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Korra</span><br>Pulyanaik From India</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"I am a dedicated and passionate web developer with hands-on experience gained during my internship at Labdox pvt ltd. Before the internship, I worked as a software developer in TCS.  During my time there, I had the opportunity to work on exciting projects, collaborating with a talented team to create dynamic and user-friendly websites.
+
+                        My responsibilities included front-end development using HTML, CSS, and JavaScript, as well as back-end work with technologies like PHP and Node js. I also had the chance to learn from seasoned professionals, enhancing my skills in responsive design, web performance optimization, and version control with Git.
+                        
+                        My internship allowed me to apply the knowledge I gained in my web development courses and exposed me to real-world challenges and problem-solving. I am excited to continue my journey in the web development field and am always eager to explore new technologies and stay updated with the latest industry trends.
+                        
+                        If you're looking for a motivated and adaptable web developer with a strong foundation in both front-end and back-end development, feel free to connect with me. I'm open to new opportunities and collaborations in web development."</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"  onclick="opentab('Educational Qualifications')">Educational Qualifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML,CSS,Javascript, swipe pages, PHP, Mysql, and Java</span><br>Develop the webpages</li>
+                                <li><span>Wordpress developer</span><br>Wordpress theme and plugin development</li>
+                                <li><span>Data Analytics</span><br>Power BI with DAX</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Developer</span><br>Develop the webpages</li>
+                                <li><span>Wordpress developer</span><br>Develop the websites</li>
+                                <li><span>Data Analytics</span><br>Visualize the data</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Educational Qualifications">
+                            <ul>
+                                <li><span>Web Developer</span><br>at Labdox pvt ltd</li>
+                                <li><span>Master of computer Applications(MCA)</span><br>University College of Engineering,Science and Technology JNTUH</li>
+                                <li><span>Bachelor's in Computer Science</span><br>Palamuru University</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-----------------------services---------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> web Design</h2>
+                <p>Design and develop responsive and user-friendly websites using HTML, CSS, and JavaScript.
+                    Utilize front-end frameworks like Bootstrap or Materialize for enhanced UI/UX.
+                    Ensure cross-browser compatibility and optimal performance.
+                    Collaborate with designers to implement pixel-perfect designs into functional websites.
+                    Integrate content management systems (CMS) like WordPress for easy client content updates.
+                    Develop custom themes and plugins for WordPress.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2> Website Design</h2>
+                <p>Design and develop responsive and user-friendly websites using HTML, CSS, and JavaScript.
+                    Utilize front-end frameworks like Bootstrap or Materialize for enhanced UI/UX.
+                    Ensure cross-browser compatibility and optimal performance.
+                    Collaborate with designers to implement pixel-perfect designs into functional websites.
+                    Integrate content management systems (CMS) like WordPress for easy client content updates.
+                    Develop custom themes and plugins for WordPress.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2> Data Analatyics</h2>
+                <p>Utilize DAX in Power BI to create complex calculations and data models.
+                    Develop interactive reports and dashboards for data visualization.
+                    Extract insights and trends from data to support business decision-making.Design and maintain data models in Power BI or other BI tools.
+                    Write DAX formulas for creating custom measures and calculated columns.
+                    Collaborate with stakeholders to deliver actionable insights.</p>
+                    <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+
+   </div>
+    
+   <!------------------portfolio------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+        
+         <div class="work">
+            <img src="work-1.png">
+            <div class="layer">
+                <h3>website</h3>
+                <p>Create, customize, and maintain WordPress websites.
+                    Install and configure WordPress, themes, and plugins.
+                    Develop and implement custom themes or child themes.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="work-2.png">
+            <div class="layer">
+                <h3>webpages</h3>
+                <p>The website connects you to the talented people around the world. browse the link from web browser</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="work-3.png">
+            <div class="layer">
+                <h3>Data Analatyics</h3>
+                <p>Collect and clean data from various sources.
+                    Perform descriptive statistics to understand data patterns.
+                    Create data visualizations and reports.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         </div>
+         <a href="#"class="btn">See more</a>
+    </div>
+
+   </div>
+   <!--------------------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>korra6252@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+917286062585</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    <a href="My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@2023 Pulyanaik<i class="fa-solid fa-heart"></i>All rights reserved.| Designed and developed by pulyanaik</p>
+        </div>
+    </div>
+
+
+
+
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents  = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwzi2JLvxoFDVJdj_lREyDXBpNLXO1Xi4OY6CibaJOeGXDt5VmO-hl56A_5KAAbIa1qZw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+   
+</body>
+</html> 
